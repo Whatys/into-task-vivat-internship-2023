@@ -10,6 +10,7 @@ public class Employees {
     int length;
 
     public Employees(String filename) {
+
         File file = new File(filename);
 
         try {

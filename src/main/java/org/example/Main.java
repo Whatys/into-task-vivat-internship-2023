@@ -1,16 +1,19 @@
 package org.example;
 
+
 import org.example.models.Employees;
 
+
 public class Main {
-    public static void main(String[] args) {
 
-        String filePath = "src\\main\\resources\\Employees.csv";
+  public static void main (String[] args) {
 
-        Employees e = new Employees(filePath);
+    // This will work only for Windows OS...
+    String filePath = "src\\main\\resources\\Employees.csv";
 
-e.printEmployers();
+    Employees e = new Employees(filePath);
 
+    e.printEmployers();
 
-    }
+  }
 }
